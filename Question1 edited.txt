@@ -1,0 +1,59 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.question1;
+
+/**
+ *
+ * @author emeris
+ */
+public class Question1 {
+
+    public static void main(String[] args) 
+{public class Question1 {
+
+    public static void main(String[] args) 
+    {
+        System.out.println("----------------------------------------------------");
+        System.out.println("GAMING CONSOLE REPORT");
+        System.out.println("----------------------------------------------------");
+        
+        String[] consoles = {"PS5", "Xbox", "Nintendo Switch"};
+        String[] City = {"Cape Town", "Port elizabeth", "Pretoria"};
+        
+        int[][] sales ={{1000,2000,3000}, {2000,3000,4000}, {1500,1100,1200}};
+        String temp ="";
+        for (int i -1; i < sales.length; i++) 
+        {
+            System.out.println(city[i] + "+");
+           
+        }
+        for (int j = 0; j < sales.length+1; j++) 
+        {
+             System.out.print(consoles[j] + " (" + sales[i][j] + ")  ");
+        }
+        temp = arr[i];
+        arr[i]=arr[j];
+        arr[j]=temp;
+        
+           System.out.println();
+           
+           System.out.println("-------------------------------------------------");
+           System.out.println("CONSOLE SALES TOTALS FOR EACH CITY");
+           System.out.println("-------------------------------------------------");
+                
+           for (int i = 0; i < sales.length; i++) {
+            int citySalesTotal = 0;
+            for (int j = 0; j < sales[i].length; j++) {
+                cityTotal += sales[i][j];
+            }
+            System.out.println("Total sales in " + city[i] + ": " + citySalesTotal);
+        }
+    }
+}
+           
+   
+       
+    }
+}
